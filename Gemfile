@@ -8,6 +8,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 gem 'bootstrap-sass'
 
+gem 'jquery-rails'
+
 gem "bcrypt", '3.1.13'
 
 gem "faker"
@@ -15,6 +17,18 @@ gem "faker"
 gem "will_paginate", "~> 3.1"
 
 gem "bootstrap-will_paginate", "1.0.0"
+
+gem "sass-rails",       "6.0.0", require: false
+
+gem 'carrierwave'
+
+gem "mini_magick"
+
+gem 'fog', "~> 1.32.0"
+
+gem 'net-ssh'
+
+gem 'xmlrpc', '0.2.1'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
